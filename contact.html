@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - Culinary Cuisine</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fdf6e3;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #6b4226;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #8b4513;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    label {
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      resize: vertical;
+    }
+    textarea {
+      min-height: 100px;
+    }
+    button {
+      background-color: #8b4513;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover,
+    button:focus {
+      background-color: #a65d2a;
+      outline: none;
+    }
+    .contact-info {
+      margin-top: 2rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .contact-info a {
+      color: #8b4513;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact-info a:hover,
+    .contact-info a:focus {
+      text-decoration: underline;
+    }
+    footer {
+      background-color: #6b4226;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: auto;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Culinary Cuisine</h1>
+  </header>
+
+  <main>
+    <section aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in Touch</h2>
+      <form action="#" method="POST" aria-label="Contact form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info" role="contentinfo" aria-label="Contact information">
+        <p>Email us at: <a href="email">cuisineculinary00@gmail.com</a></p>
+        <p>Follow us on Instagram: <a href="https://instagram.com/culinarycuisine" target="_blank" rel="noopener noreferrer">@culinarywolrd_info</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Culinary Cuisine. All rights reserved.
+  </footer>
+</body>
+</html>

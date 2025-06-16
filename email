@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Culinary Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffef8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            background-color: #ffffff;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #e67300;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .email-link {
+            font-size: 1.2em;
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .email-link:hover {
+            text-decoration: underline;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #e67300;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .back-button:hover {
+            background-color: #cc6600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Have questions or feedback? We'd love to hear from you!</p>
+        <p>Email us at:</p>
+        <a href="mailto:cuisineculinary00@gmail.com" class="email-link">cuisineculinary00@gmail.com</a>
+        <br>
+        <a href="index.html" class="back-button">← Back to Main Page</a>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Follow Us on Instagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fffaf5;
+            text-align: center;
+            padding: 40px;
+            color: #333;
+        }
+
+        h1 {
+            color: #e1306c;
+        }
+
+        .qr-container {
+            margin: 30px auto;
+            max-width: 400px;
+        }
+
+        .qr-container img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        .handle {
+            margin-top: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #e1306c;
+        }
+
+        .instagram-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e1306c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .instagram-link:hover {
+            background-color: #c72e5c;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 10px 20px;
+            background-color: #444;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .back-button:hover {
+            background-color: #222;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Follow Us on Instagram</h1>
+
+    <div class="qr-container">
+        <img src="978fbfd8-a055-44f8-a31c-537fdc0c3990.jpg" alt="Instagram QR Code">
+        <div class="handle">@CULINARYWORLD_INFO</div>
+    </div>
+
+    <a href="https://www.instagram.com/culinaryworld_info" target="_blank" class="instagram-link">Visit Instagram Profile</a>
+
+    <br><br>
+
+    <a href="index.html" class="back-button">← Back to Main Page</a>
+
+</body>
+</html>
