@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Login to Culinary Heritage to explore global cuisines." />
+  <title>Login | Culinary Heritage</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ff7f51, #d62828); /* vibrant gradient */
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background: rgba(255, 255, 255, 0.9);
+      color: #2e2e2e;
+      padding: 2em;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      width: 300px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #bc4749; /* deep red */
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 0.5em;
+      margin: 0.5em 0;
+      border: 1px solid #9c6644; /* warm brown */
+      border-radius: 6px;
+    }
+
+    input[type="submit"] {
+      background-color: #ffd700; /* vibrant yellow */
+      color: #2e2e2e;
+      border: none;
+      padding: 0.6em;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #ffb703; /* gold */
+    }
+
+    .footer {
+      margin-top: 1em;
+      font-size: 0.85em;
+    }
+
+    .footer a {
+      color: #9c6644; /* warm brown */
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="login-container">
+  <h2>Login to Culinary Heritage</h2>
+  <form action="login-process.html" method="POST">
+    <input type="text" name="username" placeholder="Username" required />
+    <input type="password" name="password" placeholder="Password" required />
+    <input type="submit" value="Login" />
+  </form>
+  <div class="footer">
+    <p>Don't have an account? <a href="register.html">Register here</a></p>
+  </div>
+</div>
+
+</body>
+</html>
